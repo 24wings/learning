@@ -191,15 +191,17 @@ i.arrow-down {
 }
 
 .shoping-title {
-    margin-top: 10px;
+    margin-top: 20px;
     background: #ECF1F7;
     color: black;
     font-size: 12px;
-    margin: 10px 0px 10px 20px;
-    padding: 10px 0;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0 10px 20px;
 }
 
-.shoping {}
+.shoping {
+    height: 350px;
+}
 
 .shoping-l {
     width: 725px;
@@ -265,8 +267,145 @@ i.arrow-down {
     width: 100px;
     text-align: center;
     float: left;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .buy-detail {
     float: left;
+}
+
+.shoping-list-title {
+    color: #4E4E4E;
+    font-size: 8px;
+    padding: 5px 0 5px 8px;
+}
+
+.mouse {
+    background: #cdcdcd;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 15px;
+}
+
+.shoping-list li {
+    /*padding-left: 10px;*/
+    line-height: 15px;
+    margin: 12px 0 12px 5px;
+    font-size: 8px;
+}
+
+.shoping-list li a {
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.shoping-submenu {
+    border-bottom: 2px solid blue;
+    height: 25px;
+}
+
+.submenu-l {
+    background: #43ACE6;
+    height: 25px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px 200px 0 0;
+    float: left;
+}
+
+.submenu-r {
+    color: blue;
+    float: right;
+}
+
+.shoping-b {
+    height: 300px;
+}
+
+.shoping-b .shoping-l {
+    border: 2px #f2f2f2 solid;
+    height: 300px;
+    width: 720px;
+}
+
+.shoping-b-sidebar {}
+
+.shoping-card-b {
+    float: left;
+    width: 165px;
+    margin-right: 15px;
+}
+
+.shoping-card-b img {
+    width: 165px;
+    height: 170px;
+}
+
+.shoping-card-b .title {
+    margin-bottom: 10px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.shoping-card-b .sub-title {
+    font-size: 8px;
+    color: gray;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.link-list {
+    border-top: 2px solid #fbfbfb;
+    border-bottom: 2px solid #0a7ec3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.link-list li {
+    float: left;
+    margin-bottom: 10px;
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+.link-list li a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+.about-links {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-links li {
+    display: inline-block;
+    height: 25px;
+}
+
+.about-links li a {
+    padding: 2px 10px;
+    font-size: 8px;
+    color: black;
+    border-right: 1px solid gray;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
